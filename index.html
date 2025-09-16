@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholar Booster Form Trial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        input,
+        button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Scholar Booster Form</h1>
+    <p>Test this form to submit an email and a PDF/Word file. Submissions will be emailed to cyrussimba@gmail.com via
+        Formcarry.</p>
+
+    <form action="https://formcarry.com/s/4CPy9O0LFcI" method="POST" enctype="multipart/form-data">
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="attachment">Upload PDF or Word File:</label>
+        <input type="file" id="attachment" name="attachment" accept=".pdf,.doc,.docx" required>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <p><strong>Notes:</strong> Ensure your Formcarry dashboard has the form named "Scholar Booster" and notifications
+        set to cyrussimba@gmail.com. Test with a small file to avoid issues.</p>
+</body>
+
+</html>
